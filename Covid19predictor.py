@@ -104,7 +104,7 @@ for i in os.listdir(dir_path):
     images = np.vstack([X])
     val = cnn.predict(images)
     if val == 1:
-        print(i+' Its Pneumonia')        
+        print(i+' Its Covid19')        
     else:
         print(i+' Its all right')
 
